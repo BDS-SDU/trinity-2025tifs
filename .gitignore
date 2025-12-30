@@ -1,0 +1,67 @@
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+
+# Precompiled Headers
+*.gch
+
+# Precompiled object files
+*.so
+*.a
+*.dll
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+a.out
+
+# Build directories
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Visual Studio files
+*.sln
+*.vcxproj*
+.vscode/
+
+# JetBrains
+.idea/
+
+# Mac OS
+.DS_Store
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Package files
+*.tar.gz
+*.zip
+
+# Dependency directories
+Dependent Libraries/
+
+# Temporary files
+*~
+*.swp
+
+# Ignore coverage and test artifacts
+coverage/
+
+# Other
+*.pyc
+__pycache__/
+
+# Keep gitignore for specific folders if needed in subfolders
+# If you split multiple programs into different folders, put .gitignore inside each program folder
